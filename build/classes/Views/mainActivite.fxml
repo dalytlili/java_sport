@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane id="AnchorPane" prefHeight="582.0" prefWidth="830.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Views.MainActiviteController">
+   <children>
+      <ImageView fitHeight="921.0" fitWidth="1310.0">
+         <image>
+            <Image url="@pexels-leon-ardho-1552249.jpg" />
+         </image>
+      </ImageView>
+      
+      <Button fx:id="btActivite" layoutX="42.0" layoutY="310.0" mnemonicParsing="false" onAction="#btActivite" prefHeight="63.0" prefWidth="505.0" style="-fx-background-color: #1032c9;" text="Activite" textFill="#f2eeee" />
+      <Button fx:id="btCategorie" layoutX="731.0" layoutY="310.0" mnemonicParsing="false" onAction="#btCategorie" prefHeight="63.0" prefWidth="505.0" style="-fx-background-color: #1032c9;" text="Categorie" textFill="#f2f2f2" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="64.0" layoutY="66.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../Downloads/Présentation%20Professionnelle%20pour%20Entreprise%20Rétrospective%20Projet%20Décontracté%20Bleu%20et%20Violet.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

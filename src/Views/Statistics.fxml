@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="905.0" prefWidth="1229.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Views.StatisticsController">
+   <children>
+      <BarChart fx:id="StatsChart" layoutX="94.0" layoutY="100.0" prefHeight="776.0" prefWidth="1087.0">
+    <xAxis>
+        <CategoryAxis label="Categories" />
+    </xAxis>
+    <yAxis>
+        <NumberAxis label="Quantite" />
+    </yAxis>
+</BarChart>
+
+   </children>
+</AnchorPane>
