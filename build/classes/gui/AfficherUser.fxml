@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="531.0" prefWidth="627.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.AfficherUserController">
+   <children>
+      <Label layoutX="40.0" layoutY="14.0" prefHeight="36.0" prefWidth="95.0" text="Acceuil" textFill="#eea508">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <ListView fx:id="listView" layoutX="-2.0" layoutY="60.0" prefHeight="466.0" prefWidth="627.0" />
+      <Button layoutX="166.0" layoutY="8.0" mnemonicParsing="false" onAction="#openModifInterface4" prefHeight="48.0" prefWidth="228.0" style="-fx-font-size: 18px; -fx-font-weight: bold;" text="Abonnement" />
+      <Button layoutX="399.0" layoutY="8.0" mnemonicParsing="false" onAction="#openModifInterface5" prefHeight="48.0" prefWidth="214.0" style="-fx-font-size: 18px; -fx-font-weight: bold;" text="Activite" />
+      
+   </children>
+</AnchorPane>
